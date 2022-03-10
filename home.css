@@ -1,0 +1,57 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url()
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:visited {
+  text-decoration-color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: white;
+  background-image: url(https://motionarray.imgix.net/preview-77718-ppTYmuHDQx_0003.jpg?w=660&q=60&fit=max&auto=format);
+  
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-image: url(https://motionarray.imgix.net/preview-77718-ppTYmuHDQx_0003.jpg?w=660&q=60&fit=max&auto=format);
+  color: white;
+}
